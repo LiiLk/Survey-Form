@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+<div class="section">
+
+    <h1 id="title" class="title">JackCompany Survey Form</h1>
+    <p id="description" class="subtitle">Thank you for taking the time to help us improve the service</p>
+    <form id="survey-form">
+        <div class="field" id="name">
+            <label class="is-size-desktop-4" id="name-label">Name</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Enter your Name" required>
+            </div>
+        </div>
+        <div class="field" id="email">
+            <label class="is-size-desktop-4" id="email-label">Email</label>
+            <div class="control">
+                <input class="input" type="email" placeholder="Enter your email" required>
+            </div>
+        </div>
+        <div class="field">
+            <label class="is-size-desktop-4" id="number-label">Age (optional)</label>
+            <div class="control">
+                <input class="input" type="number" placeholder="Age" min="18" max="100">
+            </div>
+        </div>
+        <div class="field">
+            <label class="is-size-desktop-4" id="activity-label">Which option best describes your current activity</label>
+            <div class="control" id="checkbox">
+                <div class="field">
+                    <input class="is-checkradio" id="checkboxEnergy" type="checkbox">
+                    <label for="checkboxEnergy">Energy</label>
+                </div>
+                <div class="field">
+                    <input class="is-checkradio" id="checkboxFinancials" type="checkbox">
+                    <label for="checkboxFinancials">Financials</label>
+                </div>
+                <div class="field">
+                    <input class="is-checkradio" id="checkboxHealthCare" type="checkbox">
+                    <label for="checkboxHealthCare">Health Care</label>
+                </div>
+                <div class="field">
+                    <input class="is-checkradio" id="checkboxIndustrials" type="checkbox">
+                    <label for="checkboxIndustrials">Industrials</label>
+                </div>
+                <div class="field">
+                    <input class="is-checkradio" id="checkboxIT" type="checkbox">
+                    <label for="checkboxIT">IT</label>
+                </div>
+                <div class="field">
+                    <input class="is-checkradio" id="checkboxTelecoms" type="checkbox">
+                    <label for="checkboxTelecoms">Telecoms</label>
+                </div>
+
+            </div>
+        </div>
+        <div class="field">
+            <label id="comments-label">Any Comments ?</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Say something we can improve">                       </textarea>
+            </div>
+        </div>
+
+        <div class="field">
+            <div class="buttons">
+                <button class="button is-primary">Submit</button>
+            </div>
+        </div>
+
+
+
+    </form>
+
+</div>
+</body>
+</html>

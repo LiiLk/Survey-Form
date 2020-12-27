@@ -1,0 +1,68 @@
+
+
+#title {
+    text-align : center;
+    color: #377992;
+}
+#description{
+    text-align: center;
+}
+
+.section{
+    background-image: url();
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: rgb(19, 115, 142);
+
+}
+
+form{
+    border-radius: 1%;
+    background-color: rgba(8, 9, 14,0.9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+label{
+    color: #409e8c;
+}
+
+.control{
+    margin-top: 1%;
+}
+
+.field{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+checkBoxActivity{
+    font-size: 14px;
+}
+
+@media(max-width:768px){
+    button {
+        width: 750px;
+    }
+}
+
+@media(min-width: 768px){
+    button{
+        max-width: 500px;
+    }
+}
